@@ -21,14 +21,29 @@ function get_fds() {
 		"R")
 			process_status="Runnning 🏃"
 		;;
+		"r")
+			process_status="Runnning 🏃"
+		;;
 		"S")
+			process_status="Sleeping (interruptible) 😴"
+		;;
+		"s")
 			process_status="Sleeping (interruptible) 😴"
 		;;
 		"D")
 			process_status="Sleeping (uninterruptible wait) 😴"
 		;;
+		"d")
+			process_status="Sleeping (uninterruptible wait) 😴"
+		;;
 		"Z")
 			process_status="\e[31mZombie\e[0m 🧟"
+		;;
+		"z")
+			process_status="\e[31mZombie\e[0m 🧟"
+		;;
+		"t")
+			process_status="Traced or Stopped 🛑"
 		;;
 		"T")
 			process_status="Traced or Stopped 🛑"

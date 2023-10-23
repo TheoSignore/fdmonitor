@@ -19,3 +19,11 @@ Zombie 🧟 processes are BAD and their file descriptors cannot be obtained
 
 Written with the idea to help developpment of 42 school project pipex and, mostly, minishell.
 Tested on Ubuntu 22.04.2 LTS
+
+---
+
+### Visuals
+
+![Zombies in my minishell, this is bad](/zombies.png)
+
+![No zombies, perfect piping, this is beautiful](/nozombies.png)
