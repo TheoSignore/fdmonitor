@@ -15,7 +15,7 @@ Then it will display the PIDs, states and opened file descriptors for this proce
 
 ### Notes
 
-Zombie 🧟 processes are BAD and there file descriptors cannot be obtained
+Zombie 🧟 processes are BAD and their file descriptors cannot be obtained
 
 Written with the idea to help developpment of 42 school project pipex and, mostly, minishell.
 Tested on Ubuntu 22.04.2 LTS

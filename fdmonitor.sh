@@ -79,7 +79,7 @@ then
 	echo -e "This script will find the \e[4mcurrently running process\e[0m with a name matching <pattern>\n"
 	echo "Then it will display the PIDs, states and opened file descriptors"
 	echo -e "for \e[4mthis process and all it's children\e[0m."
-	echo -e "\n\e[31mZombie\e[0m 🧟 processes are \e[1mBAD\e[0m and there file descriptors cannot be obtained"
+	echo -e "\n\e[31mZombie\e[0m 🧟 processes are \e[1mBAD\e[0m and their file descriptors cannot be obtained"
 else
 	pslist=$(pgrep -l $1)
 	
